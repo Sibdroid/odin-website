@@ -1,18 +1,72 @@
-body * {
+.content, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content * {
     background-color: #1f2937;
+    flex: 1;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+}
+
+.description {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 3;
+}
+
+.description .left {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    gap: 3.5%;
+}
+
+.description .left .awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    inline-size: 60%;
+}
+
+.description .left .text {
+    color: #e5e7e8;
+    font-size: 18px;
+    inline-size: 60%;
+}
+
+.description .left .button button {
+    background-color: #3882f6;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    border: 0px solid white;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .links {
