@@ -134,6 +134,20 @@ body {
     height: 100%;
 }
 
+.information .box-container .box {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.information .box-container .box .inner-box .image {
+    height: 100%;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    aspect-ratio: 1 / 1;
+}
+
 .information * {
     background-color: white;
 }
