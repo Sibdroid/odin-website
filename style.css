@@ -166,6 +166,14 @@ body {
     background-color: white;
 }
 
+.footer {
+    flex: 0.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .quote {
     flex: 1.6;
     display: flex;
